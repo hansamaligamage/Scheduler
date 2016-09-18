@@ -1,2 +1,2 @@
 # Scheduler
-This solution describes a email scheduler using a windows service
+This solution describes how to create an email scheduler using a windows service
