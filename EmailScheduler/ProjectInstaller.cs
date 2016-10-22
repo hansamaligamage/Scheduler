@@ -22,7 +22,7 @@ namespace EmailScheduler
             process = new ServiceProcessInstaller();
             process.Account = ServiceAccount.LocalSystem;
             service = new ServiceInstaller();
-            service.ServiceName = "test service";
+            service.ServiceName = "SiliconFlock Email Service";
             Installers.Add(process);
             Installers.Add(service);
         }

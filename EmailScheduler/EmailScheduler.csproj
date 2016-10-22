@@ -51,12 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Installer1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Installer1.Designer.cs">
-      <DependentUpon>Installer1.cs</DependentUpon>
-    </Compile>
     <Compile Include="ProcessEmail.cs" />
     <Compile Include="ProjectInstaller.cs">
       <SubType>Component</SubType>
@@ -94,14 +88,6 @@
     <ProjectReference Include="..\EmailService\EmailService.csproj">
       <Project>{3f587300-36d7-4ce0-8591-6fe44aea8d05}</Project>
       <Name>EmailService</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ExceptionHandler\CommonLogger.csproj">
-      <Project>{b111ec31-3066-49a7-8c83-914bb3ecda7b}</Project>
-      <Name>CommonLogger</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LoggerService\LoggerService\LoggerService.csproj">
-      <Project>{73e2b8fb-bfc7-4596-b978-5e472ccd801a}</Project>
-      <Name>LoggerService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,8 +5,8 @@ using EmailApp;
 using System.Collections.Generic;
 using EmailService.Viewmodel;
 using System;
-using CommonLogger;
 using System.Diagnostics;
+using EmailService;
 
 namespace EmailScheduler
 {
@@ -34,7 +34,7 @@ namespace EmailScheduler
             }
             catch (Exception ex)
             {
-                logger.Error(ExceptionHandler.LogException(ex));
+                logger.Error(ExceptionHandler.ToLongString(ex));
             }
         }
 

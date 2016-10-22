@@ -114,10 +114,6 @@
       <Project>{3f587300-36d7-4ce0-8591-6fe44aea8d05}</Project>
       <Name>EmailService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ExceptionHandler\CommonLogger.csproj">
-      <Project>{b111ec31-3066-49a7-8c83-914bb3ecda7b}</Project>
-      <Name>CommonLogger</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
