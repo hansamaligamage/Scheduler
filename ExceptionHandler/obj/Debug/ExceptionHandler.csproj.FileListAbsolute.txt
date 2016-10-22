@@ -1,5 +1,0 @@
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\ExceptionHandler.pdb
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\ExceptionHandler.csprojResolveAssemblyReference.cache
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\ExceptionHandler.pdb

@@ -1,8 +1,0 @@
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\bin\Debug\NLog.config
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\bin\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\bin\Debug\ExceptionHandler.pdb
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\bin\Debug\NLog.dll
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\bin\Debug\NLog.xml
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\obj\Debug\CommonLogger.csprojResolveAssemblyReference.cache
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\obj\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\e\Scheduler\ExceptionHandler\obj\Debug\ExceptionHandler.pdb

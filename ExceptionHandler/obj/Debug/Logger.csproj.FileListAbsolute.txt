@@ -1,8 +1,0 @@
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\ExceptionHandler.pdb
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\ExceptionHandler.dll
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\ExceptionHandler.pdb
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\NLog.config
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\NLog.dll
-E:\MyProjects\Email\EmailApp\ExceptionHandler\bin\Debug\NLog.xml
-E:\MyProjects\Email\EmailApp\ExceptionHandler\obj\Debug\Logger.csprojResolveAssemblyReference.cache
