@@ -23,21 +23,6 @@ namespace EmailScheduler
                 new Scheduler()
             };
             ServiceBase.Run(ServicesToRun);
-
-            //Scheduler scheduler = new Scheduler();
-            //scheduler.Start();
-            //Thread.Sleep(240000);
-            ////scheduler.Stop();
-
-            //RunInteractive(ServicesToRun);
-
-            //logger.Trace("trace message");
-            //logger.Debug("debug message");
-            //logger.Info("info message");
-            //logger.Warn("warn message");
-            //logger.Error("error message");
-            //logger.Fatal("fatal message");
-            //logger.Log(LogLevel.Info, "log message");
         }
     }
 }

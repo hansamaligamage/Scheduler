@@ -18,15 +18,11 @@ namespace EmailScheduler
             if (!ProcessEmail.IsRun)
             {
                 IsRun = true;
-                //logger.Log(LogLevel.Info, "create email");
-                //System.Diagnostics.Debugger.Launch();
                 EmailManager emailManager = new EmailManager();
-                //EmailHandler emailHandler = new EmailHandler();
                 List<EmailViewModel> emailViewModel = emailManager.GetEmails();
                 EmailSettingViewModel emailSettingViewModel = emailManager.GetEmailSettings();
                 foreach (EmailViewModel viewmodel in emailViewModel)
                 {
-                    //isSuccess = EmailHandler.SendEmail(viewmodel.From, new List<string>() { viewmodel.To }, "mail subject", "mail body");
                     isSuccess = EmailHandler.SendEmail(emailSettingViewModel.Host, emailSettingViewModel.Port, emailSettingViewModel.UserName, emailSettingViewModel.Password,
                         viewmodel.From, new List<string>() { viewmodel.To }, viewmodel.Subject, viewmodel.Body);
                     isSuccess = emailManager.ChangeEmailStatus(viewmodel.EmailEntryId);

@@ -53,18 +53,12 @@ namespace EmailScheduler
 
         public void Start()
         {
-            //ProcessEmail.CreateEmail();
             Timer tmrEmailScheduler = new Timer();
             tmrEmailScheduler.Interval = 120000;
             tmrEmailScheduler.Elapsed += tmrEmailScheduler_Elapsed;
             tmrEmailScheduler.Start();
             ProcessEmail.CreateEmail();
         }
-
-        //public void Stop ()
-        //{
-        //    tmrEmailScheduler.Stop();
-        //}
 
     }
 }
